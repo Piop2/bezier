@@ -4,7 +4,10 @@ project(bezier CXX)
 
 
 
-add_library(bezier src/bezier.cpp)
+add_library(bezier
+    src/bezier.cpp
+    src/curve.cpp
+)
 target_include_directories(bezier PUBLIC include)
 
 
