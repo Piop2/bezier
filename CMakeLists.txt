@@ -11,6 +11,10 @@ add_library(bezier
 target_include_directories(bezier PUBLIC include)
 
 
+file(GLOB_RECURSE PUBLIC_HEADERS "include/bezier/*.hpp")
+set_target_properties(bezier PROPERTIES PUBLIC_HEADER "${PUBLIC_HEADERS}")
 
-set_target_properties(bezier PROPERTIES PUBLIC_HEADER "include/bezier.h")
-install(TARGETS bezier)
+install(
+    TARGETS bezier
+    PUBLIC_HEADER DESTINATION include/bezier
+)

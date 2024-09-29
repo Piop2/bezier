@@ -3,7 +3,7 @@
 
 namespace bezier
 {
-    
+    void curve();
 } // namespace bezier
 
 
