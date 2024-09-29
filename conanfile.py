@@ -9,10 +9,10 @@ class bezierRecipe(ConanFile):
 
     # Optional metadata
     license = "<Put the package license here>"
-    author = "<Put your name here> <And your email here>"
+    author = "Pio pioooop2@gmail.com"
     url = "<Package recipe repository url here, for issues about the package>"
-    description = "<Description of bezier package here>"
-    topics = ("<Put some tag here>", "<here>", "<and here>")
+    description = "C++ Bezier Library"
+    topics = ("bezier", "math")
 
     # Binary configuration
     settings = "os", "compiler", "build_type", "arch"
