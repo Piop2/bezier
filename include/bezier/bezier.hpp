@@ -9,8 +9,7 @@
     #endif
 #endif
 
-namespace bezier
-{
+namespace bezier {
     
 } // namespace bezier
 

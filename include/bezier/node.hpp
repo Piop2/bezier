@@ -9,8 +9,7 @@
     #endif
 #endif
 
-namespace bezier
-{
+namespace bezier {
     struct BEZIER_EXPORT Node {
         float x, y;
 

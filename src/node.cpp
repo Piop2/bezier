@@ -1,7 +1,6 @@
 #include "bezier/node.hpp"
 
-namespace bezier
-{
+namespace bezier {
     Node Node::operator+(const Node& other) const {
         return {x + other.x, y + other.y};
     }
