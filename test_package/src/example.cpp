@@ -4,6 +4,9 @@
 #include <bezier/bezier.hpp>
 
 int main() {
+
+    std::cout << "Bezier Lib Version: v" << bezier::VERSION_MAJOR << "." << bezier::VERSION_MINOR << std::endl;
+
     std::vector<bezier::Node> nodes = {{0, 0}, {0, 1}, {1, 1}};
 
     bezier::NDCurve curve(nodes);
