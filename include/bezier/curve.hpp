@@ -5,11 +5,11 @@
 
 #include "bezier/node.hpp"
 
-#ifndef BEZIER_EXPORT
+#ifndef _BEZIER_EXPORT
     #ifdef _WIN32
-        #define BEZIER_EXPORT __declspec(dllexport)
+        #define _BEZIER_EXPORT __declspec(dllexport)
     #else
-        #define BEZIER_EXPORT
+        #define _BEZIER_EXPORT
     #endif
 #endif
 
@@ -18,7 +18,7 @@ namespace bezier {
     /**
      * @brief N dimention bezier curve class
      */
-    class BEZIER_EXPORT NDCurve
+    class _BEZIER_EXPORT NDCurve
     {
     private:
         std::vector<Node> nodes;

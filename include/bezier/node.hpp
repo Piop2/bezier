@@ -1,11 +1,11 @@
 #if !defined(BEZIER_NODE_H_)
 #define BEZIER_NODE_H_
 
-#ifndef BEZIER_EXPORT
+#ifndef _BEZIER_EXPORT
     #ifdef _WIN32
-        #define BEZIER_EXPORT __declspec(dllexport)
+        #define _BEZIER_EXPORT __declspec(dllexport)
     #else
-        #define BEZIER_EXPORT
+        #define _BEZIER_EXPORT
     #endif
 #endif
 
@@ -13,7 +13,7 @@ namespace bezier {
     /**
      * @brief Simple 2D vector structure
      */
-    struct BEZIER_EXPORT Node {
+    struct _BEZIER_EXPORT Node {
         float x, y;
 
         Node operator+(const Node& other) const;
