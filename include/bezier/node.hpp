@@ -1,5 +1,5 @@
-#if !defined(BEZIER_NODE_H_)
-#define BEZIER_NODE_H_
+#if !defined(_BEZIER_NODE_H_)
+#define _BEZIER_NODE_H_
 
 #ifndef _BEZIER_EXPORT
     #ifdef _WIN32
@@ -21,4 +21,4 @@ namespace bezier {
     };
 } // namespace bezier
 
-#endif // BEZIER_NODE_H_
+#endif // _BEZIER_NODE_H_

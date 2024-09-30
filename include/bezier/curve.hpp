@@ -1,5 +1,5 @@
-#if !defined(BEZIER_CURVE_H_)
-#define BEZIER_CURVE_H_
+#if !defined(_BEZIER_CURVE_H_)
+#define _BEZIER_CURVE_H_
 
 #include <vector>
 
@@ -53,4 +53,4 @@ namespace bezier {
 } // namespace bezier
 
 
-#endif // BEZIER_CURVE_H_
+#endif // _BEZIER_CURVE_H_

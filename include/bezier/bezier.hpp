@@ -1,5 +1,5 @@
-#if !defined(BEZIER_BEZIER_H_)
-#define BEZIER_BEZIER_H_
+#if !defined(_BEZIER_BEZIER_H_)
+#define _BEZIER_BEZIER_H_
 
 #include "bezier/curve.hpp"
 
@@ -12,8 +12,10 @@
 #endif
 
 namespace bezier {
-    
+    // version
+    static const unsigned VERSION_MAJOR = 1;
+    static const unsigned VERSION_MINOR = 0;
 } // namespace bezier
 
 
-#endif // BEZIER_BEZIER_H_
+#endif // _BEZIER_BEZIER_H_
