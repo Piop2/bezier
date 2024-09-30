@@ -10,6 +10,9 @@
 #endif
 
 namespace bezier {
+    /**
+     * @brief Simple 2D vector structure
+     */
     struct BEZIER_EXPORT Node {
         float x, y;
 
