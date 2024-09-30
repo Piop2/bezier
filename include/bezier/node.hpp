@@ -4,10 +4,10 @@
 namespace bezier
 {
     struct Node {
-        double x, y;
+        float x, y;
 
         Node operator+(const Node& other) const;
-        Node operator*(double scalar) const;
+        Node operator*(float scalar) const;
     };
 } // namespace bezier
 
