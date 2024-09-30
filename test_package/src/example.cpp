@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-#include <bezier/curve.hpp>
+#include <bezier/bezier.hpp>
 
 int main() {
     std::vector<bezier::Node> nodes = {{0, 0}, {0, 1}, {1, 1}};
